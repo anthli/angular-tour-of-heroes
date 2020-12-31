@@ -1,0 +1,39 @@
+.search-result li {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(128, 128, 128);
+  border-left: 1px solid rgb(128, 128, 128);
+  border-right: 1px solid rgb(128, 128, 128);
+  cursor: pointer;
+  height: 16px;
+  list-style-type: none;
+  padding: 5px;
+  width: 195px;
+}
+
+.search-result li:hover {
+  background-color: rgb(96, 125, 139);
+}
+
+.search-result li a {
+  color: rgb(136, 136, 136);
+  display: block;
+  text-decoration: none;
+}
+
+.search-result li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.search-result li a:active {
+  color: rgb(255, 255, 255);
+}
+
+#search-box {
+  height: 20px;
+  width: 200px;
+}
+
+ul.search-result {
+  margin-top: 0;
+  padding-left: 0;
+}

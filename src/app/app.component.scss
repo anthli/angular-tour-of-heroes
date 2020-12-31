@@ -1,0 +1,21 @@
+nav a {
+  background-color: rgb(238, 238, 238);
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+nav a:visited, a:link {
+  color: rgb(51, 73, 83);
+}
+
+nav a:hover {
+  background-color: rgb(207, 216, 220);
+  color: rgb(3, 155, 229);
+}
+
+nav a.active {
+  color: rgb(3, 155, 229);
+}
